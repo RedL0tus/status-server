@@ -1,0 +1,10 @@
+account_id = "560a188b90a4bf11fbd0bd89637b84a9"
+name = "status-wasm"
+type = "rust"
+route = "status.salted.fish/*"
+workers_dev = false
+zone_id = "3e0ef5db3745ba8949f3eaef26cc0e50"
+
+[[kv-namespaces]]
+binding = "STATUS_KV"
+id = "6016edf1ef0e4cc28e4df5997f0ddfce"
